@@ -1,4 +1,4 @@
-Alterações feitas:
+Arquivo com alterações
 
 /home/edrizo/evolution-api-1.8.5/src/api/integrations/typebot/services/typebot.service.ts
 
