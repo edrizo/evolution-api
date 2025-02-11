@@ -1,0 +1,41 @@
+Alterações feitas:
+
+/home/edrizo/evolution-api-1.8.5/src/api/integrations/typebot/services/typebot.service.ts
+
+
+Atualizar a imagem base (se necessário):
+    sudo docker pull atendai/evolution-api:v1.8.5
+
+
+sudo docker images
+
+
+
+Construir a nova imagem:
+    sudo docker build -t edrizo/evolution-api:v1.8.5-ed .
+
+
+Testar a imagem:
+    sudo docker run -p 8080:8080 edrizo/evolution-api:v1.8.5-ed
+
+
+
+
+sudo docker images
+
+sudo docker ps
+sudo docker stop d4fbccaba4a4
+
+Publicar a imagem:
+    sudo docker login
+    sudo docker push edrizo/evolution-api:v1.8.5-ed
+
+
+
+sudo docker run -p 8080:8080 edrizo/evolution-api:v1.8.5-ed
+sudo docker image prune -f
+
+
+
+
+http://localhost:8080/manager
